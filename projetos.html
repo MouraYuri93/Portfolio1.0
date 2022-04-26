@@ -13,276 +13,142 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <!-- Estilo customizado -->
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/content.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon4.jpg">
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="src/js/script.js"></script>
 
     <title>Portfólio</title>
 </head>
 
 <body>
 
-    <header><!-- Inicio cabeçalho -->
-        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
-            <div class="container"><!-- Inicio container -->
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                    <div class="collapse navbar-collapse" id="nav-principal">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a href="index.html" class="btn btn-outline-light ml-2">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="biografia.html" class="btn btn-outline-light ml-2">Biografia</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="projetos.html" class="btn btn-outline-light ml-2">Projetos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="experiencias.html" class="btn btn-outline-light ml-2">Experiências</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="certificacoes.html" class="btn btn-outline-light ml-2">Certificações</a>
-                            </li>
-                        </ul>
+    <header id="header">
+            <!-- header -->
+            <a class="logo" href="index.html">Portfólio</a>
+
+            <nav id="nav">
+                <!-- nav -->
+                <div id="mobile-menu">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                </div>
+
+                <ul>
+                    <li>
+                        <a href="index.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="biografia.html">Biografia</a>
+                    </li>
+                    <li>
+                        <a href="projetos.html">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="experiencias.html">Experiência</a>
+                    </li>
+                    <li>
+                        <a href="certificacoes.html">Certificados</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- /nav -->
+    </header>
+            <section id="projetos">
+                <div>
+                    <h1>Projetos recentes</h1>
+                </div>
+
+                <div class="cards">
+                    <div class="card card-1">
+
+                        <img src="src/img/projeto1.1.jpg" height="280">
+                        <h2>Efeito Parallax</h2>
+                        <p>
+                            Demonstrativo de um site com o efeito parallax.
+                        </p>
+
+                        <a target="blank_" href="https://github.com/MouraYuri93/Efeito-parallax.git">Acessar</a>
                     </div>
-            </div><!-- Fim container -->
-        </nav>
-    </header><!-- Fim cabeçalho -->
 
-    <section class="caixa"><!--caixa -->
-        <div class="container"><!--container -->
-          <div class="row"><!--row -->
+                    <div class="card card-2">
 
-            <div class="col-md-4 capa"><!--finnas -->          
-              <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
+                        <img src="src/img/projeto2.1.jpg" alt="" width="600" height="280">
+                        <h2>Finans</h2>
+                        <p>
+                            Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.
+                        </p>
+                        <a target="blank_" href="https://github.com/MouraYuri93/Projeto-Finans.git">Acessar</a>
+                    </div>
 
-                  <div class="carousel-item active">
-                    <h4>Site fictício corretora Finnas</h4>
-                    <a href="src/finans/index.html">
-                        <img src="img/projeto4.1.jpg" class="img-fluid">
-                    </a>                   
-                  </div>
+                    <div class="card card-3">
 
-                  <div class="carousel-item">
-                    <h4>Site fictício corretora Finnas</h4>
-                    <a href="src/finans/index.html">
-                        <img src="img/projeto4.2.jpg" class="img-fluid">
-                    </a>                    
-                  </div>
-
-                  <div class="carousel-item">
-                    <h4>Site fictício corretora Finnas</h4>
-                    <a href="src/finans/index.html">
-                        <img src="img/projeto4.3.jpg" class="img-fluid">
-                    </a>                    
-                  </div>
+                        <img src="src/img/projeto3.1.jpg" height="280">
+                        <h2>Museu Nacional</h2>
+                        <p>
+                            Uma pequena amostra de como seria um portal para o museu nacional.
+                        </p>
+                        <a target="blank_" href="https://github.com/MouraYuri93/Projeto-Museu-Nacional.git">Acessar</a>
+                    </div>
                 </div>
 
-                <!-- Controles -->
-                <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev"></a>
-                <a href="#carousel-spotify" class="carousel-control-next" data-slide="next"></a>
-              </div>
-            </div><!--/finans -->
+                <div class="cards">
+                    <div class="card card-4">
 
-            <div class="col-md-4 capa"><!--Museu -->          
-              <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
+                        <img src="src/img/projeto4.1.jpg" alt="Projeto Letmeask">
+                        <h2>TecBlog</h2>
+                        <p>
+                            Um blogue de voltado para área de tecnlogia.
+                        </p>
 
-                  <div class="carousel-item active">
-                    <h4>Site fictício do Museu Nacional</h4>
-                    <a href="src/museu-nacional/index.html">
-                        <img src="img/projeto5.1.jpg" class="img-fluid">
-                    </a>                   
-                  </div>
+                        <a target="blank_" href="https://github.com/MouraYuri93/Projeto-TecBlog.git">Acessar</a>
+                    </div>
 
-                  <div class="carousel-item">
-                    <h4>Site fictício do Museu Nacional</h4>
-                    <a href="src/museu-nacional/index.html">
-                        <img src="img/projeto5.1.jpg" class="img-fluid">
-                    </a>                    
-                  </div>
+                    <div class="card card-5">
 
-                  <div class="carousel-item">
-                    <h4>Site fictício do Museu Nacional</h4>
-                    <a href="src/museu-nacional/index.html">
-                        <img src="img/projeto5.1.jpg" class="img-fluid">
-                    </a>                    
-                  </div>
+                        <img src="src/img/projeto5.1.jpg" height="205">
+                        <h2>Chalé Hotel</h2>
+                        <p>
+                            Chalé Hotel, é uma aplicação web que tem como finalidade a criação de um site para reservas de quartos.
+                        </p>
+                        <a target="blank_" href="https://github.com/MouraYuri93/Projeto-chale-hotel.git">Acessar</a>
+                    </div>
+
+                    <div class="card card-6">
+
+                        <img src="src/img/projeto6.1.jpg" alt="" width="600" height="280">
+                        <h2>Notícias Cidade</h2>
+                        <p>
+                            Portal de notícias para uma cidade.
+                        </p>
+                        <a target="blank_" href="https://github.com/MouraYuri93/Projeto-noticias-cidade.git">Acessar</a>
+                    </div>
                 </div>
 
-                <!-- Controles -->
-                <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev"></a>
-                <a href="#carousel-spotify" class="carousel-control-next" data-slide="next"></a>
-              </div>
-            </div><!--/Museu -->
-
-            <div class="col-md-4 capa"><!--notícias -->          
-              <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-
-                  <div class="carousel-item active">
-                    <h4>Site ficiticio Portal de notícias</h4>
-                    <a href="src/notícias-cidade/index.html">
-                        <img src="img/projeto6.1.jpg" class="img-fluid">
-                    </a>                   
-                  </div>
-
-                  <div class="carousel-item">
-                    <h4>Site ficiticio Portal de notícias</h4>
-                    <a href="src/notícias-cidade/index.html">
-                        <img src="img/projeto6.2.jpg" class="img-fluid">
-                    </a>                    
-                  </div>
-
-                  <div class="carousel-item">
-                    <h4>Site ficiticio Portal de notícias</h4>
-                    <a href="src/notícias-cidade/index.html">
-                        <img src="img/projeto6.3.jpg" class="img-fluid">
-                    </a>                    
-                  </div>
+                <div class="more-projects">
+                    <a target="blank_" href="https://github.com/MouraYuri93">Acessar mais projetos</a>
                 </div>
+        </section>
 
-                <!-- Controles -->
-                <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev"></a>
-                <a href="#carousel-spotify" class="carousel-control-next" data-slide="next"></a>
-              </div>
-            </div><!--/Faculdade -->
-
-          </div><!--/row -->
-        </div><!--/container -->
-    </section><!--/caixa -->
-
-    <section class="caixa"><!--caixa -->
-        <div class="container"><!--container -->
-          <div class="row"><!--row -->
-
-            <div class="col-md-4 capa"><!--blog -->          
-              <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-
-                  <div class="carousel-item active">
-                    <h4>Site TecBlog</h4>
-                    <a href="src/tecblog/index.html">
-                        <img src="img/projeto7.1.jpg" class="img-fluid">
-                    </a>                   
-                  </div>
-
-                  <div class="carousel-item">
-                    <h4>Site TecBlog</h4>
-                    <a href="src/tecblog/index.html">
-                        <img src="img/projeto7.2.jpg" class="img-fluid">
-                    </a>                    
-                  </div>
-
-                  <div class="carousel-item">
-                    <h4>Site TecBlog</h4>
-                    <a href="src/tecblog/index.html">
-                        <img src="img/projeto7.3.jpg" class="img-fluid">
-                    </a>                    
-                  </div>
-                </div>
-
-                <!-- Controles -->
-                <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev"></a>
-
-                <a href="#carousel-spotify" class="carousel-control-next" data-slide="next"></a>
-              </div>
-            </div><!--/blog -->
-
-            <div class="col-md-4 capa"><!--Parallax -->          
-              <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-
-                  <div class="carousel-item active">
-                    <h4>Efeito parallax</h4>
-                    <a href="src/efeito-parallax/index_.html">
-                        <img src="img/projeto8.1.jpg" class="img-fluid">
-                    </a>                   
-                  </div>
-
-                  <div class="carousel-item">
-                    <h4>Efeito parallax</h4>
-                    <a href="src/efeito-parallax/index_.html">
-                        <img src="img/projeto8.2.jpg" class="img-fluid">
-                    </a>                    
-                  </div>
-
-                  <div class="carousel-item">
-                    <h4>Efeito parallax</h4>
-                    <a href="src/efeito-parallax/index_.html">
-                        <img src="img/projeto8.3.jpg" class="img-fluid">
-                    </a>                    
-                  </div>
-                </div>
-
-                <!-- Controles -->
-                <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev"></a>
-                <a href="#carousel-spotify" class="carousel-control-next" data-slide="next"></a>
-              </div>
-            </div><!--/Parallax -->
-
-            <div class="col-md-4 capa"><!--Spotify -->          
-              <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-
-                  <div class="carousel-item active">
-                    <h4>Clone página inicial do Spotify</h4>
-                    <a href="src/spotify/index.html">
-                        <img src="img/projeto9.1.jpg" class="img-fluid">
-                    </a>                   
-                  </div>
-
-                  <div class="carousel-item">
-                    <h4>Clone página inicial do Spotify</h4>
-                    <a href="Psrc/spotify/index.html">
-                        <img src="img/projeto9.2.jpg" class="img-fluid">
-                    </a>                    
-                  </div>
-
-                  <div class="carousel-item">
-                    <h4>Clone página inicial do Spotify</h4>
-                    <a href="src/spotify/index.html">
-                        <img src="img/projeto9.3.jpg" class="img-fluid">
-                    </a>                    
-                  </div>
-                </div>
-
-                <!-- Controles -->
-                <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev"></a>
-                <a href="#carousel-spotify" class="carousel-control-next" data-slide="next"></a>
-              </div>
-            </div><!--/Spotify -->
-
-          </div><!--/row -->
-        </div><!--/container -->
-    </section><!--/caixa -->
     
-    <footer class="mt-4 mb-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    
-                </div>
-                <div class="col-md-4 d-flex justify-content-end">
-                    <a href="https://www.linkedin.com/in/mourayuri93/" class="text-primary">
-                        <i class="fab fa-brands fa-linkedin fa-2x fa-lg"></i>
-                    </a>
-                    <a href="https://github.com/MouraYuri93" class="text-dark ml-2">
-                        <i class="fab fa-brands fa-github fa-2x fa-lg"></i>
-                    </a>
-                    <a href="https://www.instagram.com/_.ms93/" class="text-info ml-2">
-                        <i class="fab fa-instagram fa-2x fa-lg"></i>
-                    </a>
+    <footer>
+        <p>Desenvolvido por Yuri Moura</p>
+            <div class="icons">
+                <a class="social-icon" target="blank_" href="https://www.linkedin.com/in/mourayuri93/"><i class="fab fa-linkedin-in"></i></a>
 
-                    <a href="https://wa.me/+55071983429008" class="text-primary ml-2">
-                        <i class="fab fa-brands fa-whatsapp fa-2x fa-lg"></i>
-                    </a>
-                </div>
+                <a class="social-icon" target="blank_" href="https://github.com/MouraYuri93"><i class="fab fa-github"></i></a>
+
+                <a class="social-icon" target="blank_" href="https://www.instagram.com/_.ms93/"><i class="fab fa-instagram"></i></a>
+                
+                <a class="social-icon" target="blank_" href="https://wa.me/+55071983429008"><i class="fab fa-whatsapp"></i></a>
             </div>
-        </div>
     </footer>
+
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

@@ -3,52 +3,66 @@
 
 <head>
     <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
     <!-- Estilo customizado -->
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon4.jpg">
+    
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/content.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/56325350?v=4">
 
-    <title>Portfólio</title>
+    <!-- JavaScript -->
+    <script type="text/javascript" src="src/js/script.js"></script>
+
+    <title>Portfólio - Yuri Moura</title>
 </head>
 
 <body>
 
-    <header><!-- Inicio cabeçalho -->
-        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
-            <div class="container"><!-- Inicio container -->
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                    <div class="collapse navbar-collapse" id="nav-principal">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a href="index.html" class="btn btn-outline-light ml-2">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="biografia.html" class="btn btn-outline-light ml-2">Biografia</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="projetos.html" class="btn btn-outline-light ml-2">Projetos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="experiencias.html" class="btn btn-outline-light ml-2">Experiências</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="certificacoes.html" class="btn btn-outline-light ml-2">Certificações</a>
-                            </li>
-                        </ul>
-                    </div>
-            </div><!-- Fim container -->
-        </nav>
-    </header><!-- Fim cabeçalho -->
+    <header id="header">
+            <!-- header -->
+            <a class="logo" href="index.html">Portfólio</a>
+
+            <nav id="nav">
+                <!-- nav -->
+                <div id="mobile-menu">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                </div>
+
+                <ul>
+                    <li>
+                        <a href="index.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="biografia.html">Biografia</a>
+                    </li>
+                    <li>
+                        <a href="projetos.html">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="experiencias.html">Experiência</a>
+                    </li>
+                    <li>
+                        <a href="certificacoes.html">Certificados</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- /nav -->
+    </header>
 
     <section id="sobre">
                 <div class="left-section col-md-6">
@@ -77,7 +91,7 @@
                 </div>
 
                 <div class="right-section">
-                    <img src="img/eu.jpg" alt="Imagem de perfil" style="border-radius: 25px;" width="350" height="350">
+                    <img src="src/img/eu.jpg" alt="Imagem de perfil" class=" d-none d-md-block" style="border-radius: 25px;" width="350" height="350">
                 </div>
 
             </section>
@@ -86,7 +100,7 @@
                 <!-- Section habilidades -->
                 <h1>Habilidades</h1>
                 
-                <div class="skills col-md-6" >
+                <div class="skills" >
                     <div class="row-skills " >
                         <!-- First row skills -->
                         <div>
@@ -103,7 +117,7 @@
                         </div>
                         <div>
                             
-                            <i class="fas fa-bootstrap"></i>
+                            <i class="fab fa-bootstrap"></i>
                             <a href="https://getbootstrap.com/" target="_blank">
                                 <p>Bootstrap</p>
                             </a>
@@ -150,7 +164,7 @@
                 <div>
                     <h2>Estou estudando</h2>
 
-                    <div class="skills-studying col-md-6">
+                    <div class="skills-studying ">
                         <div>
                             <i class="fab fa-brands fa-java"></i>
                             <a href="https://www.java.com/pt-BR/" target="_blank">
@@ -189,32 +203,21 @@
                 </div>
     </section>
     
-    <footer class="mt-4 mb-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    
-                </div>
-                <div class="col-md-4 d-flex justify-content-end">
-                    <a href="https://www.linkedin.com/in/mourayuri93/" class="text-primary">
-                        <i class="fab fa-brands fa-linkedin fa-2x fa-lg"></i>
-                    </a>
-                    <a href="https://github.com/MouraYuri93" class="text-dark ml-2">
-                        <i class="fab fa-brands fa-github fa-2x fa-lg"></i>
-                    </a>
-                    <a href="https://www.instagram.com/_.ms93/" class="text-info ml-2">
-                        <i class="fab fa-instagram fa-2x fa-lg"></i>
-                    </a>
+    <footer>
+        <p>Desenvolvido por Yuri Moura</p>
+            <div class="icons">
+                <a class="social-icon" target="blank_" href="https://www.linkedin.com/in/mourayuri93/"><i class="fab fa-linkedin-in"></i></a>
 
-                    <a href="https://wa.me/+55071983429008" class="text-primary ml-2">
-                        <i class="fab fa-brands fa-whatsapp fa-2x fa-lg"></i>
-                    </a>
-                </div>
+                <a class="social-icon" target="blank_" href="https://github.com/MouraYuri93"><i class="fab fa-github"></i></a>
+
+                <a class="social-icon" target="blank_" href="https://www.instagram.com/_.ms93/"><i class="fab fa-instagram"></i></a>
+                
+                <a class="social-icon" target="blank_" href="https://wa.me/+55071983429008"><i class="fab fa-whatsapp"></i></a>
             </div>
-        </div>
     </footer>
 
-    <!-- JavaScript (Opcional) -->
+
+
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

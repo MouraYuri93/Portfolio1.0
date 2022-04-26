@@ -1,0 +1,46 @@
+@media (max-width: 991.98px) {
+  /* About section */
+  #sobre .left-section {
+    text-align: center;
+  }
+  #sobre .left-section .icons {
+    justify-content: center;
+  }
+  #sobre .right-section {
+    display: none;
+  }
+
+  /* Projects section */
+  #projetos {
+    padding: 6.875rem 0;
+  }
+  #projetos .cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #projetos .more-projects a {
+    width: 90%;
+    padding: 1rem 4rem;
+  }
+
+  /* Skills sections */
+  #habilidades .skills {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  #habilidades .skills .row-skills {
+    flex-direction: column;
+    padding: 0;
+  }
+  #habilidades .skills .row-skills div {
+    margin: 1rem;
+    padding: 2.5rem;
+  }
+  #habilidades .skills-studying {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

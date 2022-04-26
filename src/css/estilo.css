@@ -1,3 +1,59 @@
+@charset "UTF-8";
+/* Header */
+header {
+  background: var(--bg);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 2.66rem 5rem;
+  z-index: 5;
+}
+
+header #mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  position: relative;
+  list-style: none;
+}
+header ul li a {
+  position: relative;
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--line);
+  letter-spacing: 1.3px;
+  font-weight: 500;
+  transition: 0.6s;
+  transition: filter 0.5s;
+}
+header ul li a:hover {
+  filter: white(0.7);
+  border-bottom: 1px solid var(--line);
+}
+header.sticky {
+  padding: 1rem 5rem;
+  background-color: whitesmoke;
+}
+
+/* Main - container*/
+main {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 /* Layout */
 html, body, #home {
 	height: 100%;
@@ -21,7 +77,7 @@ body {
   padding-bottom: 6.875rem;
 }
 #sobre .left-section h1 {
-  color: var(--line);
+  color: white;
   font-weight: 500;
   letter-spacing: 2.5px;
   font-size: 3rem;
