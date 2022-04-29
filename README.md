@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <img 
-      src="https://avatars.githubusercontent.com/u/56325350?v=4" 
+      src="src/img/perfil.jpeg" 
       alt="Logo Portfólio"
       width="100"
       height="100" 
@@ -66,7 +66,7 @@ As tecnologias usadas nesse projeto foram:
 <!-- GETTING STARTED -->
 ## Como usar
 
-Acesse o projeto on-line: <a href="https://master.d3uk1l5qdanrdo.amplifyapp.com/">Portfólio</a>
+Acesse o projeto on-line: <a href="https://main.d1vsjykb0o0226.amplifyapp.com/">Portfólio</a>
 
 Este é um exemplo de como você pode dar instruções sobre como configurar seu projeto localmente. Para obter uma cópia local instalada e funcionando, siga estas etapas simples de exemplo.
 
