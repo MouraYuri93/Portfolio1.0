@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <img 
-      src="src/img/perfil.jpeg" 
+      src="src/img/perfil2.jpeg" 
       alt="Logo Portfólio"
       width="100"
       height="100" 
