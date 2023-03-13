@@ -37,9 +37,7 @@
         <li><a href="#Instalação">Instalação</a></li>
       </ul>
     </li>
-    <li><a href="#Contribuindo">Contribuindo</a></li>
     <li><a href="#Licença">Licença</a></li>
-    <li><a href="#Reconhecimentos">Reconhecimentos</a></li>
   </ol>
 </details>
 
