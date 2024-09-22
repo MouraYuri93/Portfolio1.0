@@ -266,6 +266,26 @@ main {
   padding-top: 0.3rem;
 }
 
+#formacao .third-row {
+  margin-top: 12.5%;
+  display: flex;
+  justify-content: space-between;
+}
+#formacao .third-row div i {
+  color: whitesmoke;
+  font-size: 5rem;
+  margin-left: 1.5rem;
+}
+#formacao .third-row h2 {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.2rem;
+}
+#formacao .third-row h3, #formacao .third-row h4 {
+  font-weight: 500;
+  color: grey;
+  padding-top: 0.3rem;
+}
+
 /* Skills section */
 #habilidades {
   padding: 0 5rem;

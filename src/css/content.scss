@@ -325,6 +325,29 @@ main {
 			padding-top: 0.3rem;
 		}
 	}
+
+	.third-row {
+		margin-top: 12.5%;
+		display: flex;
+		justify-content: space-between;
+
+		div i {
+			color: whitesmoke;
+			font-size: 5rem;
+			margin-left: 1.5rem;
+		}
+
+		h2 {
+			border-bottom: 1px solid var(--line);
+			padding-bottom: 0.2rem;
+		}
+
+		h3, h4 {
+			font-weight: 500;
+			color: grey;
+			padding-top: 0.3rem;
+		}
+	}
 }
 
 /* Skills section */

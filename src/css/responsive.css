@@ -45,6 +45,13 @@
   #formacao .second-row div:first-child {
     display: none;
   }
+  #formacao .third-row {
+    text-align: center;
+    justify-content: center;
+  }
+  #formacao .third-row div:last-child {
+    display: none;
+  }
 
   /* Skills sections */
   #habilidades .skills {
