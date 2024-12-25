@@ -53,23 +53,31 @@
     display: none;
   }
 
-  /* Skills sections */
-  #habilidades .skills {
-    justify-content: space-around;
-    flex-direction: row;
-  }
-  #habilidades .skills .row-skills {
-    flex-direction: column;
-    padding: 0;
-  }
-  #habilidades .skills .row-skills div {
-    margin: 1rem;
-    padding: 2.5rem;
-  }
-  #habilidades .skills-studying {
-    flex-direction: column;
-    gap: 1rem;
-  }
+/* Skills sections */
+#Competências .skills {
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#Competências .skills .row-skills {
+  flex-direction: column;
+  padding: 0;
+}
+
+#Competências .skills .row-skills div {
+  margin: 1rem;
+  padding: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#Competências .skills-studying {
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
 
   /* Experience section */
   #experiencia h3 {

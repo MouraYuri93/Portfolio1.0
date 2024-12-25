@@ -48,7 +48,7 @@ O portfólio consiste basicamente em 6 seções:
 - **Sobre:** Breve descrição sobre mim e opções de contato
 - **Projetos:** Projetos recentes, com imagem, descrição e link
 - **Formação:** Informações sobre formação acadêmica
-- **Habilidades:** Cards com minhas atuais hard skills
+- **Competências:** Cards com minhas atuais hard skills
 - **Experiência:** Experiência profissional como desenvolvedor
 - **Certificados:** Descrição e link sobre os cursos/certificados
 

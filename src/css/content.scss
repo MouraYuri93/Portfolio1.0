@@ -351,14 +351,14 @@ main {
 }
 
 /* Skills section */
-#habilidades {
+#Competências {
 	padding: 0 5rem;
 	padding-top: 6.875rem;
 	padding-bottom: 6.875rem;
 	background-color: var(--bg);
 
 	h1 {
-		text-align: center
+		text-align: center;
 	}
 
 	h2 {
@@ -381,14 +381,14 @@ main {
 			div {
 				background: var(--dark-bg);
 				display: flex;
-				justify-content: space-around;
+				justify-content: center;
 				align-items: center;
 				flex-direction: column;
 
 				border: 1px solid darkgrey;
 				height: 10rem;
 				width: 10rem;
-				padding: 5rem;
+				padding: 2rem;
 				border-radius: 1.33rem;
 
 				transition: 0.9s;
@@ -402,28 +402,26 @@ main {
 		}
 
 		div {
-
 			a {
 				text-decoration: none;
 			}
 
 			i {
 				color: whitesmoke;
-				padding-bottom: 1rem;
+				font-size: 2rem;
+				margin-bottom: 0.5rem;
 			}
 
 			p {
 				filter: brightness(0.8);
-				transition: filter 0.8;
+				transition: filter 0.8s;
+				text-align: center;
+				font-size: 1.2rem;
+				font-weight: 500;
 
 				&:hover {
 					filter: brightness(1);
 				}
-			}
-
-			p, i {
-				font-size: 1.65rem;
-				padding-right: 0.5rem;
 			}
 		}
 	}
@@ -437,14 +435,14 @@ main {
 		div {
 			background: var(--dark-bg);
 			display: flex;
-			justify-content: space-around;
+			justify-content: center;
 			align-items: center;
 			flex-direction: column;
 
 			border: 1px solid darkgrey;
 			height: 10rem;
 			width: 10rem;
-			padding: 5rem;
+			padding: 2rem;
 			border-radius: 1.33rem;
 
 			transition: 0.9s;
@@ -461,21 +459,20 @@ main {
 
 			i {
 				color: whitesmoke;
-				padding-bottom: 1rem;
+				font-size: 2rem;
+				margin-bottom: 0.5rem;
 			}
 
 			p {
 				filter: brightness(0.8);
-				transition: filter 0.8;
+				transition: filter 0.8s;
+				text-align: center;
+				font-size: 1.2rem;
+				font-weight: 500;
 
 				&:hover {
 					filter: brightness(1);
 				}
-			}
-
-			p, i {
-				font-size: 1.65rem;
-				padding-right: 0.5rem;
 			}
 		}
 	}

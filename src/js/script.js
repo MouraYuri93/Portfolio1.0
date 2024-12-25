@@ -1,13 +1,10 @@
-/* ---- Sticky CSS effect */
 window.addEventListener('scroll', () => {
 	var header = document.querySelector('#header')
 	header.classList.toggle('sticky', window.scrollY > 50)
 })
 
-/* ---- Responsive menu */
 class MobileNavbar {
 
-	// Atribuição dos itens recebidos via html para o construtor
 	constructor(mobileMenu, nav, navLinks) {
 
 		this.mobileMenu = document.querySelector(mobileMenu);
@@ -18,7 +15,6 @@ class MobileNavbar {
 		this.handleClick = this.handleClick.bind(this)
 	}
 
-	// Animação nos list items
 	animateLinks() {
 		this.navLinks.forEach((link) => {
 			link.style.animation 
@@ -26,7 +22,6 @@ class MobileNavbar {
 		})
 	}
 
-	// Ao botão de menu-mobile ser clicado irá ocorrer os seguintes eventos
 	handleClick() {
 		this.nav.classList.toggle(this.activeClass)
 		this.mobileMenu.classList.toggle(this.activeClass)
@@ -41,7 +36,6 @@ class MobileNavbar {
 	    );
 	}
 
-	// Classe para ser chamada que irá englobar as outras
 	init() {
 		if(this.mobileMenu) {
 			this.addClickEvent()
@@ -58,5 +52,3 @@ const mobileNavbar = new MobileNavbar(
 )
 
 mobileNavbar.init();
-
-/* ................ */

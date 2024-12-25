@@ -287,108 +287,125 @@ main {
 }
 
 /* Skills section */
-#habilidades {
+#Competências {
   padding: 0 5rem;
   padding-top: 6.875rem;
   padding-bottom: 6.875rem;
   background-color: var(--bg);
 }
-#habilidades h1 {
+
+#Competências h1 {
   text-align: center;
 }
-#habilidades h2 {
+
+#Competências h2 {
   text-align: center;
   padding-top: 3.4375rem;
 }
-#habilidades .skills {
+
+#Competências .skills {
   display: flex;
   justify-content: space-between;
   padding-top: 4rem;
   flex-direction: column;
 }
-#habilidades .skills .row-skills {
+
+#Competências .skills .row-skills {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 1rem 2rem;
 }
-#habilidades .skills .row-skills div {
+
+#Competências .skills .row-skills div {
   background: var(--dark-bg);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   border: 1px solid darkgrey;
   height: 10rem;
   width: 10rem;
-  padding: 5rem;
+  padding: 2rem;
   border-radius: 1.33rem;
   transition: 0.9s;
 }
-#habilidades .skills .row-skills div:hover {
+
+#Competências .skills .row-skills div:hover {
   background: var(--bg);
   border: 1px solid var(--dark-bg);
   box-shadow: 0 0.625rem 1.5625rem rgba(0, 0, 0, 0.8);
 }
-#habilidades .skills div a {
+
+#Competências .skills div a {
   text-decoration: none;
 }
-#habilidades .skills div i {
+
+#Competências .skills div i {
   color: whitesmoke;
-  padding-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
-#habilidades .skills div p {
+
+#Competências .skills div p {
   filter: brightness(0.8);
   transition: filter 0.8;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
-#habilidades .skills div p:hover {
+
+#Competências .skills div p:hover {
   filter: brightness(1);
 }
-#habilidades .skills div p, #habilidades .skills div i {
-  font-size: 1.65rem;
-  padding-right: 0.5rem;
-}
-#habilidades .skills-studying {
+
+#Competências .skills-studying {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding-top: 5rem;
 }
-#habilidades .skills-studying div {
+
+#Competências .skills-studying div {
   background: var(--dark-bg);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   border: 1px solid darkgrey;
   height: 10rem;
   width: 10rem;
-  padding: 5rem;
+  padding: 2rem;
   border-radius: 1.33rem;
   transition: 0.9s;
 }
-#habilidades .skills-studying div:hover {
+
+#Competências .skills-studying div:hover {
   background: var(--bg);
   border: 1px solid var(--dark-bg);
   box-shadow: 0 0.625rem 1.5625rem rgba(0, 0, 0, 0.8);
 }
-#habilidades .skills-studying div a {
+
+#Competências .skills-studying div a {
   text-decoration: none;
 }
-#habilidades .skills-studying div i {
+
+#Competências .skills-studying div i {
   color: whitesmoke;
-  padding-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
-#habilidades .skills-studying div p {
+
+#Competências .skills-studying div p {
   filter: brightness(0.8);
   transition: filter 0.8;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
-#habilidades .skills-studying div p:hover {
+
+#Competências .skills-studying div p:hover {
   filter: brightness(1);
-}
-#habilidades .skills-studying div p, #habilidades .skills-studying div i {
-  font-size: 1.65rem;
-  padding-right: 0.5rem;
 }
 
 /* Experience section */
